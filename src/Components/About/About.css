@@ -1,0 +1,41 @@
+.about{
+  display: flex;
+  padding-inline: 100px;
+  flex-direction: row;
+  gap: 10rem;
+  margin-top: 100px;
+}
+.about_pic{
+  display: inline-block;
+  border-radius: 8px solid #212531 ;
+  width:350px;
+  padding: 20px;
+  border-radius: 10px;
+  transform: rotate(355deg);
+}
+.about_pic img{
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 1.3rem;
+  transform: rotate(357deg);
+}
+.about-right h2 {
+    font-size: 100px;
+
+}
+.about-right p{
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 20px;
+}
+.abt-btn{
+  display: flex;
+  gap:15px;
+}
+.abt-btn button{
+  padding: 1rem 3rem ;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  background: rgb(15,215,250);
+}
